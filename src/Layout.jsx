@@ -17,14 +17,14 @@ export default function Layout({ children }) {
 
       {/* Main Content Area */}
       <div className="flex-grow order-2 md:order-3 bg-gray-50">
-        <div className="flex w-full px-2 sm:px-4 py-4">
+        <div className="flex w-full px-2 sm:px-4 py-0 md:py-4">
           {/* Sidebar - DealsToday */}
           <div className="hidden md:flex flex-[0_0_27%] min-w-[150px] border-r justify-start">
             <DealsToday />
           </div>
 
           {/* Main Children Area */}
-          <div className="relative w-full md:flex-[0_0_73%] flex flex-col items-center md:items-start px-2 sm:px-4 overflow-y-auto h-[calc(100vh-72px-48px)] md:h-[calc(100vh-72px-40px)]">
+          <div className="relative w-full md:flex-[0_0_73%] flex flex-col items-center md:items-start px-2 sm:px-4 overflow-y-auto h-[calc(100vh-72px-48px)] md:h-[calc(100vh-72px-96px)]">
             {children}
           </div>
         </div>

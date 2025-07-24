@@ -15,7 +15,7 @@ export default function Pills() {
   ];
 
   return (
-    <div className="w-full py-3 px-4">
+    <div className="w-full p-3 px-4">
       {/* Desktop/Tablet: Single row with horizontal scroll */}
       <div 
         className="hidden sm:flex gap-3 overflow-x-auto"
